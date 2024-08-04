@@ -216,6 +216,7 @@ footer {
 
     nav ul {
         flex-direction: column;
+        width: 100%;
     }
 
     nav ul li {
@@ -229,6 +230,7 @@ footer {
     .additional-buttons {
         flex-direction: column;
         gap: 10px;
+        width: 100%;
     }
 
     .additional-buttons .button {
@@ -242,12 +244,20 @@ footer {
         padding: 20px;
     }
 
+    .intro h1 {
+        font-size: 2em;
+    }
+
     .intro p {
         font-size: 1.1em;
     }
 
     .features h1 {
         font-size: 2em;
+    }
+
+    .feature-item {
+        padding: 15px;
     }
 
     .feature-item h2 {
@@ -257,15 +267,20 @@ footer {
     .feature-item p {
         font-size: 1em;
     }
+
+    .additional-buttons .button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
 }
 
 @media (max-width: 576px) {
     .header-container {
-        padding: 15px 20px;
+        padding: 15px 10px;
     }
 
     .intro h1 {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
     .intro p {
@@ -273,11 +288,19 @@ footer {
     }
 
     .feature-item {
-        padding: 15px;
+        padding: 10px;
+    }
+
+    .feature-item h2 {
+        font-size: 1.6em;
+    }
+
+    .news {
+        padding: 20px;
     }
 
     .news h2 {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
     .news-item {
@@ -286,5 +309,15 @@ footer {
 
     .update-info {
         font-size: 1em;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+
+    .invite a,
+    .additional-buttons .button {
+        font-size: 0.9em;
+        padding: 10px 15px;
     }
 }
