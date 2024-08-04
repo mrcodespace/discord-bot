@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
         update();
     }
 
-    const serverCount = 9999;
-    const userCount = 1242212;
+    const serverCount = 85;
+    const userCount = 2827;
     const uptime = 542;
-    const commands = 2241222;
+    const commands = 367864;
 
     animateNumber('serverCount', serverCount, 2000);
     animateNumber('userCount', userCount, 3000);
