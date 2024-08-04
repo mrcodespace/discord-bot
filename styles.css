@@ -191,3 +191,100 @@ footer {
     margin-top: 25px;
     font-size: 1.2em;
 }
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .intro h1,
+    .features h1 {
+        font-size: 2.5em;
+    }
+
+    .feature-item h2 {
+        font-size: 2em;
+    }
+
+    .news h2 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .invite a {
+        margin-top: 10px;
+    }
+
+    .additional-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .additional-buttons .button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+    }
+
+    .intro p {
+        font-size: 1.1em;
+    }
+
+    .features h1 {
+        font-size: 2em;
+    }
+
+    .feature-item h2 {
+        font-size: 1.8em;
+    }
+
+    .feature-item p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-container {
+        padding: 15px 20px;
+    }
+
+    .intro h1 {
+        font-size: 1.8em;
+    }
+
+    .intro p {
+        font-size: 1em;
+    }
+
+    .feature-item {
+        padding: 15px;
+    }
+
+    .news h2 {
+        font-size: 1.8em;
+    }
+
+    .news-item {
+        padding: 15px;
+    }
+
+    .update-info {
+        font-size: 1em;
+    }
+}
