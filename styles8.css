@@ -28,25 +28,17 @@ nav ul {
     display: flex;
 }
 
-nav ul li {
+nav ul.menu li {
     margin: 0 15px;
 }
 
-nav ul li a {
+nav ul.menu li a {
     color: #FFD700;
     text-decoration: none;
     padding: 10px 20px;
-    border: 2px solid #FFD700;
+    border: 2px solid transparent; /* Removed border for default menu items */
     border-radius: 10px;
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-nav ul li a:hover {
-    background-color: #FFD700;
-    color: #282828;
-    transform: scale(1.1);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-}
+    transition: background-color 0
 
 .invite a {
     color: #FFD700;
