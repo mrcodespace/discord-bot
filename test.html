@@ -30,7 +30,7 @@
                 const response = await axios.get(`https://api.opsucht.net/market/price/${item}`, {
                     headers: {
                         'Authorization': 'Basic ' + btoa('||`ftp_connection`||:||`07ec582c-04a1-415a-87a9-38305f6f1381`||'),
-                        'User-Agent': 'My API Explorer' // Ersetze mit deinem eigenen User-Agent
+                        'User-Agent': 'Test' // Ersetze mit deinem eigenen User-Agent
                     }
                 });
                 resultDiv.innerHTML = `Der Preis für ${item} ist: ${response.data.price}`;
