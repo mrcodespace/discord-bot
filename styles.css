@@ -83,6 +83,16 @@ main {
     color: #FFD700;
 }
 
+.fetures p {
+    font-size: 1.2em;
+}
+
+.fetures h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #FFD700;
+}
+
 .intro p {
     font-size: 1.2em;
 }
